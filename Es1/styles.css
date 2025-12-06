@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(60, 143, 143);
+}
+
+header {
+  margin: 0vw 3vw 2vw 5vw;
+}
+
+section,
+footer {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+h1 {
+  font-family: "montserrat","sans-serif";
+  font-weight: 700;
+  font-size: 9rem;
+ 
+}
+
+ @media screen and (max-width: 979px) {
+  h1 {
+    font-size: clamp(65px, 10vw, 7rem);
+  }
+}
+
+ 
+
+
+header div {margin-top: 60px;}
+
+@media screen and (max-width: 480px) {
+  #logoImg {
+    width: 50px;
+  height: auto;
+  }
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+  font-weight: 600;
+}
+
+img{width:10vw;}
